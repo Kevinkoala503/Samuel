@@ -1,0 +1,51 @@
+body{
+    background-image: url("Imagenes/APHRODITE.png");
+    background-size: 97% 950px;
+    background-repeat: no-repeat;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 95%;
+    background-color: #1e8f4db0;
+    color: #fff;
+    padding: 10px;
+    transition: top 0.3s;
+    border-radius: 11%;
+  }
+  .header.hidden {
+    top: -100px;
+  }
+  
+  .logo {
+    float: left;
+    margin: 0;
+  }
+  
+  .menu {
+    float: right;
+    
+  }
+  
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+  }
+  
+  .menu ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0px;
+  }
+  
+  .menu ul li a:hover {
+    background-color: #15da25;
+  }
